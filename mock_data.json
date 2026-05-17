@@ -1,0 +1,24 @@
+{
+  "patients": [
+    {"iin": "850115300001", "full_name": "Ахметов Азамат Ахметович", "phone": "+7 701 111 22 33"},
+    {"iin": "920520400002", "full_name": "Оспанова Айгерим Сериковна", "phone": "+7 702 222 33 44"}
+  ],
+  "doctors": [
+    {
+      "username": "doc_terapevt",
+      "password": "docpassword123",
+      "first_name": "Алия",
+      "last_name":"Смагулова",
+      "specialty": "Терапевт"
+    }
+  ],
+  "appointments": [
+    {
+      "patient_iin": "850115300001",
+      "doctor_username": "doc_terapevt",
+      "date_time": "2026-04-21T09:00:00Z",
+      "status": "completed",
+      "notes": "Первичный осмотр."
+    }
+  ]
+}
